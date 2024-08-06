@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/hero.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    background: rgb(0 0 0 / 80%);
+    height:80px;
+    display: flex;
+    overflow: hidden;
+}
+.heading{
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    background: rgba(0, 0, 0, 0.498);
+    cursor: pointer;
+    
+}
+.dot{
+    color: #ffc451;
+}
+.menus{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.menu{
+    list-style: none;
+}
+.name{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+} 
+.active{
+    color: #ffc451;
+}
+.name:hover{
+    color: #ffc451;
+}
+
+.btn{
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ffc451;
+    margin-left: 250px;
+}
+.btn:hover{
+    background: #ffc451;
+    color: black;
+}
+#banner{
+    background: rgba(0, 0, 0, 0.498);    
+    overflow: hidden;
+}
+.Gphead{
+    margin-left: 400px;
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.d{
+    margin-top: 60px;
+}
+.h{
+    margin-left: 370px;
+}
+.paramarket{
+    margin-left: 400px;
+   color: rgba(255, 255, 255, 0.715);
+    cursor: pointer;
+    font-size: 24px;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.498); 
+    height:50%;
+}
+.box{ 
+    margin-top: 40px;  
+    width: 200px;
+    height: 200px;
+    border: 0.8px solid rgba(255, 255, 255, 0.715);
+    
+}
+.fa-solid{
+    color: #ffc451;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+.adots{
+    margin-top: 20px;
+}
+.dots{
+   font-size: 30px;
+   text-decoration: none;
+   color: white;
+}
+.Lorem{
+    margin-left: 50px;
+}
+.Ipsum{
+    margin-left: 50px;
+}
+.Dolor{
+    margin-left: 13px;
+}
+.Sedare{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.Perspiciatis{
+    margin-left: 30px;
+}
+.Magni{
+    margin-left: 50px;
+}
+.Dolores{
+    margin-left: 40px;
+}
+.Nemos{
+    margin-left: 50px;
+}
+.Enimade{
+    margin-left: 40px;
+}
+.box:hover{
+    border: 1px solid #ffc451;
+    color: #ffc451;
+}
+.box:hover .dots{
+    color: #ffc451;
+}
